@@ -1,0 +1,481 @@
+.page {
+  min-width: 1100px;
+  /* сделала как в проектной работе */
+  max-width: 1600px;
+  /* сделала как в проектной работе, т.к. по макету получается горизонтальная прокрутка*/
+  /* все размеры отредактировала пропорционально уменьшению окна */
+  margin: 0 auto;
+  font-family: "Roboto";
+}
+
+.header {
+  height: 700px;
+  background-color: #EEEFF1;
+  position: relative;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 611px;
+  height: 16px;
+  position: absolute;
+  top: 72px;
+  left: 736px;
+  text-transform: uppercase;
+
+}
+
+.menu__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #000000
+}
+
+.logo {
+  font-family: "Revalia";
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  color: #34547A;
+  position: absolute;
+  top: 50px;
+  left: 242px;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  margin: 257px 0 146px 815px;
+}
+
+
+.header__title {
+  width: 541px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000;
+  margin: 0 0 64px;
+  padding: 0;
+}
+
+.header__subtitle {
+  width: 540px;
+  height: 79px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 0;
+  padding: 0;
+}
+
+.header__image {
+  position: absolute;
+  width: 357px;
+  height: 233.7px;
+  left: 327px;
+  top: 271px;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  text-transform: uppercase;
+  background-color: #34547A;
+  color: #fff;
+  font-style: normal;
+  /* font-weight: normal; */
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  align-self: baseline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__button {
+  width: 225px;
+  height: 65px;
+  margin-top: 44px;
+}
+
+
+.about-me{
+  display: flex;
+  /* background-color: #E5E5E5; */
+  margin: 0;
+  padding: 0;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  height: 147px;
+  text-align: center;
+}
+
+.about-me__text {
+  margin: 199px auto 100px;
+}
+
+.main-text__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin: 0 0 50px;
+  padding: 0;
+  height: 30px;
+}
+
+.main-text__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  height: 67px;
+  margin: 0;
+  padding: 0;
+}
+
+.numbers {
+  background-color: #34547A;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1091px;
+  color: #FFFFFF;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.table__cell {
+  margin: 0 49px 0 0;
+  padding: 0;
+  width: 141px;
+  /* height: 50px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.table__cell:last-child {
+  margin: 0;
+}
+
+.table__cell::before {
+  content: url("../images/project.png");
+  width: 50px;
+  height: 50px;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.table__heading {
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.table__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.skills {
+  display: flex;
+  padding: 102px 0 101px 0;
+}
+
+.skills__box {
+  width: 1150px;
+  height: 450px;
+  margin: auto;
+  background-image: url("../images/Rectangle\ 3.png");
+  background-size: 555px 450px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.list {
+  width: 445px;
+  height: 257px;
+  list-style: none;
+  margin: 102px 0 91px 0;
+  padding: 0;
+}
+
+.skills_heading {
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin: 0 0 53px 0;
+}
+
+.skills__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  /* margin: 50px 0 0; */
+  padding: 0;
+}
+
+.line {
+  width: 445px;
+  height: 4px;
+  background-color: #C4C4C4;
+  margin: 20px 0 30px 0;
+}
+
+.line_theme_blue {
+  width: 349.36px;
+  height: 4px;
+  background-color: #34547A;
+}
+
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 1004px;
+  background-color: #EEEFF1;
+  margin: 0;
+  padding: 0;
+}
+
+.work__text {
+  margin: 100px 0 57px 0;
+}
+
+.video {
+  width: 1110px;
+  height: 600px;
+  background-image: url("../images/Rectangle\ 5\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.button-play {
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/Vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.projects {
+  height: 734px;
+  margin: 28px 0 0;
+}
+
+.projects__table {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.projects__table_row_one {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.project__cell {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 367px;
+  height: 367px;
+}
+
+.project__cell_type_one {
+  background-image: url("../images/Rectangle\ 7.png");
+}
+
+.project__cell_type_two {
+  background-image: url("../images/Rectangle\ 7.3.png");
+}
+
+.project__overlay {
+  background-color: rgba(52, 84, 122, 0.8);
+  background-image: url("../images/view.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+}
+
+.project__overlay:hover {
+  opacity: 1;
+}
+
+.clients {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.clients__table {
+  width: 1110px;
+  height: 120px;
+  margin: 72px auto 100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.client1 {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 255px;
+  height: 120px;
+}
+
+.form {
+  background-color: #EEEFF1;
+  height: 762px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* первый раз делала форму - решение нашла в интернете */
+
+.form-client {
+  margin: auto;
+}
+
+.form-client_view_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-client__row {
+  width: 255px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #5F5D5D;
+  border: 0;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+/*ниже не смогла поднять текст к верхнему краю */
+.form-client__row_size_l {
+  width: 540px;
+  height: 175px;
+  margin-top: 20px;
+  border: 0;
+}
+
+.form__text {
+  margin: 100px auto 65px;
+}
+
+.form__button {
+  width: 190px;
+  height: 55px;
+  margin:  50px auto 100px;
+}
+
+
+.footer{
+  height: 151px;
+  background-color: #34547A;
+  color: #FFFFFF;
+  display: flex;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: row;
+  width: 1091px;
+  margin: auto;
+}
+
+.footer__column_blok_author {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__author {
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 21px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.footer__copy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.footer__column_blok_social {
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.social__link {
+  margin:  0  0  0 21.87px;
+}
