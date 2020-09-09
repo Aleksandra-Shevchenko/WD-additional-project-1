@@ -9,25 +9,27 @@
 </head>
 <body>
   <div class="page">
-    <header class="header">
-      <nav class="menu">
-        <a class="menu__link" href="#">Главная</a>
-        <a class="menu__link" href="#">Об авторе</a>
-        <a class="menu__link" href="#">Работы</a>
-        <a class="menu__link" href="#">Процесс</a>
-        <a class="menu__link" href="#">Контакты</a>
-      </nav>
-      <div class='logo'>WD</div>
-      <div class="header__text">
-        <h1 class="header__title">Дизайн и верстка</h1>
-        <p class="header__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        <div class="button header__button">Написать мне</div>
+    <header class="header" id="main-page">
+      <div class="header__content">
+        <nav class="menu">
+          <a class="menu__link menu__link_active" href="#main-page">Главная</a>
+          <a class="menu__link" href="#i">Об авторе</a>
+          <a class="menu__link" href="#my-projects">Работы</a>
+          <a class="menu__link" href="#process">Процесс</a>
+          <a class="menu__link" href="#contacts">Контакты</a>
+        </nav>
+        <div class='logo'></div>
+        <div class="header__text">
+          <h1 class="header__title">Дизайн и верстка</h1>
+          <p class="header__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          <div class="button header__button">Написать мне</div>
+        </div>
+        <img class="header__image" src="./images/Frame.png" alt="картинка">
       </div>
-      <img class="header__image" src="./images/Frame.png" alt="картинка">
     </header>
 
     <main class="content">
-      <section class="about-me">
+      <section class="about-me" id="i">
         <div class="main-text about-me__text">
           <h2 class="main-text__title">Обо мне</h2>
           <p class="main-text__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
@@ -89,7 +91,7 @@
         </div>
       </section>
 
-      <section class="work">
+      <section class="work" id="process">
         <div class="main-text work__text">
           <h2 class="main-text__title">Как я работаю</h2>
           <p class="main-text__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
@@ -99,7 +101,7 @@
         </div>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="my-projects">
         <ul class="projects__table projects__table_row_one">
           <li class="project__cell project__cell_type_one">
             <a class="project__overlay" href="#"></a></li>
@@ -147,7 +149,7 @@
 
       </section>
 
-      <section class="footer">
+      <section class="footer" id="contacts">
         <div class="footer__column">
           <div class="footer__column footer__column_blok_author">
             <h3 class="footer__author">Иванов Иван</h3>

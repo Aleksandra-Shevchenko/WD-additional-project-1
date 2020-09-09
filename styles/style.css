@@ -11,8 +11,14 @@
 .header {
   height: 700px;
   background-color: #EEEFF1;
-  position: relative;
   display: flex;
+}
+
+.header__content {
+  display: flex;
+  margin: 57px auto 146px;
+  position: relative;
+  width: 1110px;
 }
 
 .menu {
@@ -21,10 +27,9 @@
   width: 611px;
   height: 16px;
   position: absolute;
-  top: 72px;
-  left: 736px;
+  top: 22px;
+  right: 0;
   text-transform: uppercase;
-
 }
 
 .menu__link {
@@ -37,21 +42,29 @@
   color: #000000
 }
 
-.logo {
-  font-family: "Revalia";
-  font-style: normal;
-  font-size: 48px;
-  line-height: 60px;
+.menu__link_active {
   color: #34547A;
+}
+
+.logo {
+  background-image: url("../images/WD.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 96px;
+  height: 60px;
   position: absolute;
-  top: 50px;
-  left: 242px;
+  top: 0;
+  left: 0;
 }
 
 .header__text {
   display: flex;
   flex-direction: column;
-  margin: 257px 0 146px 815px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-left: 143px;
 }
 
 
@@ -80,11 +93,11 @@
 }
 
 .header__image {
-  position: absolute;
   width: 357px;
   height: 233.7px;
-  left: 327px;
-  top: 271px;
+  position: absolute;
+  left: 85px;
+  bottom: 22px;
   margin: 0;
   padding: 0;
 }
@@ -168,7 +181,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1091px;
+  width: 1110px;
   color: #FFFFFF;
   list-style: none;
   margin: 0;
