@@ -9,27 +9,44 @@
 }
 
 .header {
-  height: 700px;
+  min-height: 700px;
   background-color: #EEEFF1;
   display: flex;
 }
 
 .header__content {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 57px auto 146px;
-  position: relative;
+  width: 1110px;
+  min-height: 497px;
+}
+
+.header__console {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 1110px;
 }
 
 .menu {
   display: flex;
+  width: 611px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   width: 611px;
-  height: 16px;
-  position: absolute;
-  top: 22px;
-  right: 0;
-  text-transform: uppercase;
+  margin: 22px 0 0;
+  padding: 0;
+  align-items: baseline;
 }
 
 .menu__link {
@@ -39,7 +56,7 @@
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.1em;
-  color: #000000
+  color: #000000;
 }
 
 .menu__link_active {
@@ -53,38 +70,34 @@
   background-position: center;
   width: 96px;
   height: 60px;
-  position: absolute;
-  top: 0;
-  left: 0;
+}
+
+.header__main-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 .header__text {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-left: 143px;
 }
 
 
 .header__title {
   width: 541px;
-  height: 45px;
-  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
   color: #000;
-  margin: 0 0 64px;
+  margin: 0 0 60px;
   padding: 0;
 }
 
 .header__subtitle {
   width: 540px;
-  height: 79px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #727272;
@@ -95,10 +108,7 @@
 .header__image {
   width: 357px;
   height: 233.7px;
-  position: absolute;
-  left: 85px;
-  bottom: 22px;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -106,28 +116,24 @@
   text-transform: uppercase;
   background-color: #34547A;
   color: #fff;
-  font-style: normal;
-  /* font-weight: normal; */
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+  text-decoration: none;
   letter-spacing: 0.1em;
-  align-self: baseline;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header__button {
+.button__link_section_header {
   width: 225px;
   height: 65px;
   margin-top: 44px;
 }
 
-
 .about-me{
   display: flex;
-  /* background-color: #E5E5E5; */
   margin: 0;
   padding: 0;
 }
@@ -136,32 +142,26 @@
   display: flex;
   flex-direction: column;
   width: 540px;
-  height: 147px;
   text-align: center;
 }
 
 .about-me__text {
-  margin: 199px auto 100px;
+  margin: 119px auto 100px;
 }
 
 .main-text__title {
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 37px;
   color: #000000;
   margin: 0 0 50px;
   padding: 0;
-  height: 30px;
 }
 
 .main-text__subtitle {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #727272;
-  height: 67px;
   margin: 0;
   padding: 0;
 }
@@ -192,7 +192,6 @@
   margin: 0 49px 0 0;
   padding: 0;
   width: 141px;
-  /* height: 50px; */
   display: flex;
   flex-direction: row;
 }
@@ -217,7 +216,7 @@
 
 .table__heading {
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 21px;
   line-height: 25px;
   color: #FFFFFF;
@@ -226,8 +225,6 @@
 }
 
 .table__text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
@@ -241,39 +238,39 @@
 }
 
 .skills__box {
-  width: 1150px;
-  height: 450px;
-  margin: auto;
+  width: 1110px;
+  min-height: 450px;
+  margin: 0 auto;
   background-image: url("../images/Rectangle\ 3.png");
   background-size: 555px 450px;
   background-position: right;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .list {
   width: 445px;
-  height: 257px;
   list-style: none;
-  margin: 102px 0 91px 0;
   padding: 0;
+  margin: 0;
 }
 
-.skills_heading {
-  font-style: normal;
-  font-weight: 500px;
+.skills__heading {
+  width: 403px;
+  font-weight: 500;
   font-size: 32px;
   line-height: 37px;
   color: #000000;
-  margin: 0 0 53px 0;
+  margin: 102px 0 50px 0;
 }
 
 .skills__text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #727272;
-  /* margin: 50px 0 0; */
+  margin: 0;
   padding: 0;
 }
 
@@ -294,7 +291,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   height: 1004px;
   background-color: #EEEFF1;
   margin: 0;
@@ -321,54 +317,53 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);;
 }
 
 .projects {
-  height: 734px;
-  margin: 28px 0 0;
+  margin: 0;
 }
 
 .projects__table {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   list-style: none;
-}
-
-.projects__table_row_one {
-  display: flex;
-  flex-direction: row;
   margin: 0;
   padding: 0;
 }
 
-.project__cell {
+.projects__cell {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 367px;
-  height: 367px;
+  width: 25%;
+  padding-top: 25%;
+  position: relative;
 }
 
-.project__cell_type_one {
+.projects__cell_type_one {
   background-image: url("../images/Rectangle\ 7.png");
 }
 
-.project__cell_type_two {
+.projects__cell_type_two {
   background-image: url("../images/Rectangle\ 7.3.png");
 }
 
-.project__overlay {
+.projects__overlay {
   background-color: rgba(52, 84, 122, 0.8);
   background-image: url("../images/view.png");
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
   height: 100%;
-  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
   opacity: 0;
 }
 
-.project__overlay:hover {
+.projects__overlay:hover {
   opacity: 1;
 }
 
@@ -388,7 +383,7 @@
   padding: 0;
 }
 
-.client1 {
+.clients__cell {
   background-image: url("../images/Rectangle\ 9.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -443,6 +438,7 @@
   width: 190px;
   height: 55px;
   margin:  50px auto 100px;
+  border: none;
 }
 
 
@@ -466,8 +462,7 @@
 }
 
 .footer__author {
-  font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 21px;
   line-height: 25px;
   margin: 0 0 20px 0;
@@ -475,8 +470,6 @@
 }
 
 .footer__copy {
-  font-style: normal;
-  font-weight: normal;
   font-size: 13px;
   line-height: 21px;
   margin: 0;
@@ -489,6 +482,6 @@
   justify-content: flex-end;
 }
 
-.social__link {
+.footer__social-link {
   margin:  0  0  0 21.87px;
 }
