@@ -1,0 +1,43 @@
+.footer{
+  height: 151px;
+  background-color: #34547A;
+  color: #FFFFFF;
+  display: flex;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: row;
+  width: 1091px;
+  margin: auto;
+}
+
+.footer__column_blok_author {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__author {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.footer__copy {
+  font-size: 13px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.footer__column_blok_social {
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.footer__social-link {
+  margin:  0  0  0 21.87px;
+}

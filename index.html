@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>WD</title>
 </head>
 <body>
   <div class="page">
+
     <header class="header" id="main-page">
       <div class="header__content">
         <div class="header__console">
@@ -35,8 +35,9 @@
     </header>
 
     <main class="content">
+
       <section class="about-me" id="i">
-        <div class="main-text about-me__text">
+        <div class="main-text">
           <h2 class="main-text__title">Обо мне</h2>
           <p class="main-text__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         </div>
@@ -142,15 +143,18 @@
           <h2 class="main-text__title">Хотите веб-сайт?</h2>
           <p class="main-text__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         </div>
-        <div class="form-client">
-          <div class="form-client form-client_view_row">
-            <input class="form-client__row" type="text" name="email" placeholder="Ваше имя">
-            <input class="form-client__row" type="text" name="email" placeholder="Ваш email">
+        <form class="form__box">
+          <fieldset class="form__contact-info">
+            <input class="form__item form__item_el_contact" type="text" name="name" placeholder="Ваше имя" required>
+            <input class="form__item form__item_el_contact" type="email" name="email" placeholder="Ваш email" required>
+          </fieldset>
+          <div class="form__message-info">
+            <textarea class="form__item form__item_el_message" name="text" placeholder="Сообщение" required></textarea>
           </div>
-          <input class="form-client__row form-client__row_size_l" type="text" name="email" placeholder="Сообщение">
-        </div>
-        <button class="button form__button">Отправить</button>
-
+          <div class="form__dispatch">
+            <input type="submit" class="button form__button" value="Отправить">
+          </div>
+        </form>
       </section>
 
       <section class="footer" id="contacts">
@@ -166,6 +170,7 @@
           </div>
        </div>
       </section>
+
     </main>
 
   </div>

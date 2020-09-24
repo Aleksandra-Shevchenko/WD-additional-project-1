@@ -1,0 +1,14 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1004px;
+  background-color: #EEEFF1;
+  margin: 0;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.work__text {
+  margin: 0 0 57px 0;
+}

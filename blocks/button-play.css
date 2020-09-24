@@ -1,0 +1,10 @@
+.button-play {
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/Vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);;
+}

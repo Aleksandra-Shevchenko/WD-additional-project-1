@@ -1,0 +1,12 @@
+.line {
+  width: 445px;
+  height: 4px;
+  background-color: #C4C4C4;
+  margin: 20px 0 30px 0;
+}
+
+.line_theme_blue {
+  width: 349.36px;
+  height: 4px;
+  background-color: #34547A;
+}

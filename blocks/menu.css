@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 22px 0 0;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 611px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: .1em;
+  color: #000000;
+}
+
+.menu__link_active {
+  color: #34547A;
+}

@@ -1,0 +1,48 @@
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1110px;
+  color: #FFFFFF;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.table__cell {
+  margin: 0 49px 0 0;
+  padding: 0;
+  width: 141px;
+  display: flex;
+  flex-direction: row;
+}
+
+.table__cell:last-child {
+  margin: 0;
+}
+
+.table__cell::before {
+  content: url("../images/project.png");
+  width: 50px;
+  height: 50px;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.table__heading {
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.table__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}

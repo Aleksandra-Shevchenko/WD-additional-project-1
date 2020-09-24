@@ -1,0 +1,7 @@
+.about-me{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 119px 0 100px;
+  box-sizing: border-box;
+}

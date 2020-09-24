@@ -1,0 +1,47 @@
+.projects {
+  margin: 0;
+  padding: 28px 0 0;
+}
+
+.projects__table {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects__cell {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  padding-top: 25%;
+  position: relative;
+}
+
+.projects__cell_type_one {
+  background-image: url("../images/Rectangle\ 7.png");
+}
+
+.projects__cell_type_two {
+  background-image: url("../images/Rectangle\ 7.3.png");
+}
+
+.projects__overlay {
+  background-color: rgba(52, 84, 122, 0.8);
+  background-image: url("../images/view.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity .4s ease-in;
+}
+
+.projects__overlay:hover {
+  opacity: 1;
+}

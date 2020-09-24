@@ -1,0 +1,21 @@
+.button {
+  text-transform: uppercase;
+  background-color: #34547A;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.button__link_section_header {
+  width: 225px;
+  min-height: 65px;
+  margin: 0;
+}
