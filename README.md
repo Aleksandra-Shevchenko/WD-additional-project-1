@@ -28,4 +28,5 @@
 - [ ] сделать ссылки интерактивными,
 - [ ] добавить микроанимации кнопок и ссылок.
 
-[Ссылка на шаблон Figma](https://www.figma.com/file/YsfjeAFFHecZ8KV8AMDu7t0J/Templates-%233.-More-on-Figma.info)
+-----
+[Ссылка на шаблон в Figma](https://www.figma.com/file/YsfjeAFFHecZ8KV8AMDu7t0J/Templates-%233.-More-on-Figma.info)
