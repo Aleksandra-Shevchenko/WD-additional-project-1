@@ -5,7 +5,7 @@
 -----
 
 # Лендинг для веб-дизайнера
-<a href="https://aleksandra-shevchenko.github.io/WD-additional-project-1" target="_blank" title="Ссылка на проект на Github-pages">**Landing-web-designer**</a> (ссылка для просмотра)
+[**Landing-web-designer**](https://aleksandra-shevchenko.github.io/WD-additional-project-1) (ссылка для просмотра)
 
 ## Описание проекта:
 статичный типовой одностраничный сайт, сайт-шаблон личной страницы для веб-дизайнера.
